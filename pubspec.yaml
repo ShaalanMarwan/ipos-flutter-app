@@ -1,0 +1,85 @@
+name: ipos_flutter
+description: "iPOS - Intelligent Point of Sale System"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.5.0
+  riverpod_annotation: ^2.3.0
+  
+  # Data Persistence
+  powersync: ^1.0.0
+  drift: ^2.15.0
+  sqlite3_flutter_libs: ^0.5.0
+  hive_flutter: ^1.1.0
+  flutter_secure_storage: ^9.0.0
+  
+  # Network
+  dio: ^5.4.0
+  retrofit: ^4.1.0
+  web_socket_channel: ^2.4.0
+  connectivity_plus: ^6.0.1
+  
+  # UI Components
+  cupertino_icons: ^1.0.8
+  skeletonizer: ^1.0.0
+  flutter_screenutil: ^5.9.0
+  
+  # Utilities
+  freezed_annotation: ^2.4.0
+  json_annotation: ^4.8.0
+  encrypt: ^5.0.0
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  collection: ^1.18.0
+  path: ^1.9.0
+  path_provider: ^2.1.2
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  rxdart: ^0.28.0
+  
+  # Logging & Analytics
+  logger: ^2.0.2
+  firebase_core: ^2.27.0
+  firebase_analytics: ^10.8.9
+  firebase_crashlytics: ^3.4.18
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  
+  # Code Generation
+  build_runner: ^2.4.0
+  riverpod_generator: ^2.3.0
+  retrofit_generator: ^8.0.0
+  drift_dev: ^2.15.0
+  freezed: ^2.4.0
+  json_serializable: ^6.7.0
+  
+  # Testing
+  mockito: ^5.4.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+
+  # To add custom fonts to your application, add a fonts section here,
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
