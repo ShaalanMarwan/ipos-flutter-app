@@ -277,7 +277,7 @@ class AuthRepositoryImpl implements AuthRepository {
       final isAuthenticated = token != null && !token.isExpired && user != null;
       _authStateSubject.add(isAuthenticated);
       
-      if (isAuthenticated && user != null) {
+      if (isAuthenticated) {
         _currentUserSubject.add(user.toEntity());
       }
     } catch (e) {
